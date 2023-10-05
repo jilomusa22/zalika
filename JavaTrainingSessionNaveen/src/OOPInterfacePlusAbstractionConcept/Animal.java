@@ -15,9 +15,9 @@ public abstract class Animal {
 	Long height;
 	int age;
 
-	abstract void eat();
+	abstract void eat();// Abstract Method
 
-	public void run() {
+	public void run() {// Non-Abstract Method
 
 		System.out.println("Run Method from Animal Abstract Class");
 	}
