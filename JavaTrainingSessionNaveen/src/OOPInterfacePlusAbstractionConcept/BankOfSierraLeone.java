@@ -2,11 +2,11 @@ package OOPInterfacePlusAbstractionConcept;
 
 public interface BankOfSierraLeone {
 // The below methods are called ABSTRACT METHODS=Have no method body
-	public void debitFacility();
+	public void debitFacility(); // Abstract Method
 
-	public void creditFacility();
+	public void creditFacility();// Abstract Method
 
-	public void transferAmountFacility();
+	public void transferAmountFacility();// Abstract Method
 	
 	int minimum_bal=200;// Interface Variable are static in nature
 	// We can have only Abstract Method In Interface.
