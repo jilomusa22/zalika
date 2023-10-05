@@ -14,7 +14,7 @@ public class HashTableOne {
 		
 		System.out.println(t.size());
 		
-        t.put(0, 100);
+                t.put(0, 100);
 		
 		t.put(2, 300);
 		
