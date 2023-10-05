@@ -2,11 +2,11 @@ package OOPInterfacePlusAbstractionConcept;
 
 public interface BankOfLiberia {
 
-	public void DesabilityLoan();
+	public void DesabilityLoan();// Abstract Method
 
-	public void childCareLoan();
+	public void childCareLoan(); // Abstract Method
 
-	public void disasterLoan();
+	public void disasterLoan();// Abstract Method
 	// We can have only Abstract Method In Interface.
 	// No Method Body,
 	// Only Method Declaration
